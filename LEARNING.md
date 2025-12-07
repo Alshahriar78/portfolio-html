@@ -32,6 +32,7 @@
 10. Text formatting tags
 
 11. List
+ - ordered list, unordered list, definition, nested 
 12. Link
 13. Table
 14. Form
