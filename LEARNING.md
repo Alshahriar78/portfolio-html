@@ -21,4 +21,20 @@
 7. Basic Tags, Styling , Debugging
  - tag? type of tag?
  - attributes, element , content
+ - debugging
+ - comments
+
+8. Headings , Paragraph , Line Breaks , horizontal rule, Semantic HTML,
+9. Semantic HTML VS Non-Semantic HTML
+ - Semantic tags : header, footer, main, from, table
+ -Non-Semantic tags : div, span
+
+10. Text formatting tags
+
+11. List
+12. Link
+13. Table
+14. Form
+15. Deploy
+
 
