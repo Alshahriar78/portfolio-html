@@ -37,8 +37,8 @@
  - Absolute link , relative link
  - a tag , attributes: href , target,  title
 13. Img Tag
-14. Table
-15. Form
+14. Basic Table
+15. Basic Form
 16. Deploy
 
 
