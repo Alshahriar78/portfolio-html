@@ -34,6 +34,9 @@
 11. List
  - ordered list, unordered list, definition, nested 
 12. Link
+ - Absolute link , relative link
+ - a tag , attributes: href , target,  title
+13. Img Tag
 13. Table
 14. Form
 15. Deploy
