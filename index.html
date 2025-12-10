@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Al Shahoriar">
+    <meta name="keywors" content="portfolio, html, Al Shahoriar">
+    <meta name="description" content="Al Shahoriar : Software Engineer">
     <title>My Portfolio</title>
+    <!-- google-font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body{
+         background-color: rgb(217,215,213);
+         font-family: "Roboto", sans-serif;
+      }
+    </style>
 </head>
 <body>
 
-     <!-- section : navbar -->
-     <nav class="intro">
+   <!-- section : navbar -->
+    <header>
+      <nav class="intro">
         <ul>
         <li><a href="#about">About Me</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -16,20 +31,22 @@
         <li><a href="#contract">Contract</a></li>
         </ul>
      </nav>
-
-    <!-- section : intro -->
-     <header id="intro" class="intro">
+    </header>
+    <!-- main  -->
+    <main>
+      <!-- section : intro -->
+     <section id="intro" class="intro">
         <h1>AL Shahoriar</h1>
         <p><em>Software Engineer</em></p>
         <img src="./images/sourov.jpeg" alt="Al Shahoriar" height="150"/>
-     </header>
-    <!-- section : about me -->
+     </section>
+     <!-- section : about me -->
      <section id="about">
         <h2>About Me</h2>
         <p> <b>Experience:</b> 1 years experience</p>
         <p><strong>Education:</strong> Bachelor in CSE</p>
      </section>
-    <!-- section : skills -->
+     <!-- section : skills -->
      <section id="skills">
         <h2>Skills</h2>
         <table border="1" cellpadding="5" cellspacing="0">
@@ -42,23 +59,43 @@
          <tbody>
             <tr>
                <td>HTML</td>
-               <td>Advance</td>
+               <td rowspan="3">Advance</td>
             </tr>
             <tr>
                <td>CSS</td>
-               <td>Advance</td>
+               
             </tr>
             <tr>
                <td>Javascript</td>
-               <td>Advance</td>
+               
             </tr>
             
          </tbody>
         </table>
+        <div>
+         <h3>Skill Progress</h3>
+        <div>
+         <label for="htmlProgress">HTML: </label>
+        <progress id="htmlProgress" value="90" max="100">90%</progress>
+        </div>
+        <div>
+         <label for="cssProgress">CSS: </label>
+        <progress id="htmlProgress" value="85" max="100">85%</progress>
+        </div>
+        <div>
+         <label for="jsProgress">Javascript: </label>
+        <progress id="htmlProgress" value="75" max="100">75%</progress>
+        </div>
+        </div>
+        <div>
+          <h3>Experience Level</h3>
+          <label for="experiencelavel">Experience: </label>
+          <meter id="experiencelavel" value="5" min="0" max="10"> 5 Years</meter>
+        </div>
      </section>
 
       <!-- section : Project -->
-       <section id="projects">
+      <section id="projects">
         <h2>Projects</h2>
         <ul>
             <li>
@@ -67,13 +104,16 @@
             <li>Blog Project</li>
             <li>E-Commerce Website</li>
         </ul>
-       </section>
+      </section>
 
-       <a href="https://github.com/Alshahriar78/portfolio-html" target="_blank">Portfolio Website</a>
+      <video width="320" controls>
+         <source src="./assests/video/video.mp4" type="video/mp4"> Your browser do not support this type of video
+      </video>
+       
     <!-- section : contract -->
      <section id="contract">
         <h2>Contract Me</h2>
-        <form action="">
+        <form action="https://formspree.io/f/mrbnyedw" method="POST">
          <div>
             <label for="name">Name : </label> 
             <input type="text" id="name"  name="name" required/>
@@ -85,6 +125,22 @@
          </div>
 
          <div>
+            <label for="age">Age : </label> 
+            <input type="number" id="age"  name="age" min="18" max="55" required/>
+         </div>
+         <div>
+            <Label for="website">Website: </Label>
+            <input type="url" id="website" name="website" pattern="https?://.+">
+         </div>
+
+         <label for="subject">Subject: </label>
+         <select name="subject" id="">
+            <option value="">Inquery</option>
+            <option value="">feedback</option>
+            <option value="">Inquery</option>
+         </select>
+         
+         <div>
             <label for="message">Message : </label> 
             <textarea name="message" id="message" cols="20" rows="10"></textarea>
          </div>
@@ -92,13 +148,27 @@
          <button type="reset">Clear</button>
         </form>
      </section>
-    <!-- section : Footer -->
+    </main>
+    <!-- Footer -->
      <footer>
         <p>Copyright reserved by &copy; Al Shahoriar2024</p>
         <p>Developed with loved &hearts;</p>
         <a href="tel:01755684137">Call me</a>
         <a href="mailto:alshahriar78@gmail.com">Email</a>
+        <div>
+         <h3>Follow Me</h3>
+        <ul>
+         <li><a href="https://www.facebook.com/al.shahoriar.sourov" target="_blank"><i class="fa-brands fa-facebook"></i>Visit my facebook</a></li>
+        </ul>
+        </div>
+
+        <div>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1807.8138964690615!2d89.3714995330817!3d25.01276044623044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sbd!4v1765339374078!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+         
+         ></iframe>
+        </div>
      </footer>
+     
     
 </body>
 </html>

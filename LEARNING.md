@@ -41,4 +41,15 @@
 15. Basic Form
 16. Deploy
 
+## Intermediate HTML
+
+- meta tag & SEO
+- advanced table
+- advanced form
+- form data send to your mail
+- multimedia
+- html5 elements
+- deploy
+
+## Advanced HTML
 
