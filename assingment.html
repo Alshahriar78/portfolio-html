@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Al Shahoriar">
+    <meta name="keywors" content="portfolio, html, Al Shahoriar">
+    <meta name="description" content="Al Shahoriar : Software Engineer">
+    <!-- Icon CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font Link CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      body{
+         background-color: rgb(217,215,213);
+         font-family: "Roboto", sans-serif;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education-experience">Education & Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+        <!-- introduction -->
+        <section class="intro">
+            <h2> <em>Al Shahoriar, Software Enginner</em></h2>
+            <p>I am passionate about <strong>programing </strong>.eager to learn new technologies.I love to soved problem through progrming</p>
+            
+        </section>
+
+        <!-- skills -->
+        <section class="skills">
+            <ul>
+                <li >
+                    <label for="htmlProgress">HTML</label>
+                    <progress id="htmlProgress" value="80" max="100">80%</progress>
+                </li>
+                <li><label for="cssProgress">CSS</label>
+                    <progress id="cssProgress" value="90" max="100">90%</progress></li>
+                <li><label for="jsProgress">Javascript</label>
+                    <meter id="jsProgress" min="0" value="90" max="100">90%</meter></li></li>
+            </ul>
+
+            <ol>
+                <li><b>Advanced</b></li>
+                <li><b>Advanced</b></li>
+                <li><b>Advanced</b></li>
+            </ol>
+        </section>
+
+        <!-- Project -->
+        <section class="projects">
+            <div class="project">
+                <h2 class="project-name">My Porfolio ( <a href="https://alshahriar78.github.io/portifolio/">Live link</a> ) </h2>
+                <p class="project-description">Developed a personal portfolio website to showcase projects, skills, and experience. Focused on a clean UI, responsive layout , and structured project presentation with live links and GitHub repositories. Designed to highlight both frontend and backend expertise in a professional manner.</p>
+                <img src="./images/myportfolio.jpeg" alt="myporfolio" width="350" height="200" class="project-img"/>
+            </div>
+            <div class="project">
+                <h2 class="project-name">Modern Food Delivery Landing Page (HTML & Bootstrap 5) </h2>
+                <p class="project-description">Developed a personal portfolio website to showcase projects, skills, and experience. Focused on a clean UI, responsive layout , and structured project presentation with live links and GitHub repositories. Designed to highlight both frontend and backend expertise in a professional manner.</p>
+                <img src="./images/foodDelivary.png" alt="myporfolio" width="350" height="200" class="project-img"/>
+
+            </div>
+            <div class="project">
+                <h2 class="project-name">M.h SMS – Smart School Management Platform (Frontend) </h2>
+                <p class="project-description">Built a responsive school management frontend using React, React Router, Axios, and TailwindCSS. Implemented student/teacher management, class & section modules, attendance UI, exam result interfaces, and fee monitoring features . Added reusable components, protected routes, and optimized API integration for a smooth role-based user experience (admin/teacher).</p>
+                <img src="./images/school.jpeg" alt="myporfolio" width="350" height="200" class="project-img"/>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="education-experience">
+            <!-- education -->
+            <div class="education">
+                <h2>Education</h2>
+                <table  class="education" border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Institution</th>
+                        <th>Degree</th>
+                        <th>Passing Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>BIAM Model School & College,Bogra</td>
+                        <td>SSC</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>Cambrian College,Dhaka</td>
+                        <td>HSC</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>North South University</td>
+                        <td>BSC in CSE</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <!-- Experience -->
+            <div class="experience">
+                <h2>Experience</h2>
+                <table  class="education" border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Position</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Integrated Technologies and Services PLC</td>
+                        <td>Sales Executive</td>
+                        <td rowspan="3">3 Month</td>
+                    </tr>
+                    <tr>
+                        <td>CMED Health Limited</td>
+                        <td>Backend Software Engineer</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Divergent Technologies Ltd</td>
+                        <td>Backend Software Engineer</td>
+            
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <!-- Contract -->
+         <section class="contract">
+            <!-- Name input field -->
+            <Label for="name">Name: </Label>
+            <input type="text" id="name" name="name" required/>
+
+            <!-- Email Input -->
+            <Label for="email">Email: </Label>
+            <input type="email" id="email" name="email" required/>
+
+            <!-- Subject -->
+             <Label for="subject">Subject: </Label>
+             <Select  id="subject" name="subject">
+                <option value="">Inquery</option>
+                <option value="">feedback</option>
+                <option value="">Inquery</option>
+             </Select>
+
+             <!-- Message -->
+              <Label for="message">Message: </Label>
+              <Textarea name="message" id="message" cols="20" rows="10">
+              </Textarea>
+
+         </section>
+    </main>
+
+    <!-- Footer -->
+     <footer>
+        <p>Copyright reserved by &copy; Al Shahoriar2024</p>
+        <p>Developed with loved &hearts;</p>
+        <a href="tel:01755684137">Call me</a>
+        <a href="mailto:alshahriar78@gmail.com">Email</a>
+        <div>
+         <h3>Follow Me</h3>
+        <ul>
+         <li><a href="https://www.facebook.com/al.shahoriar.sourov" target="_blank"><i class="fa-brands fa-facebook"></i>Visit my facebook</a></li>
+        </ul>
+        </div>
+
+        <div>
+         <iframe title="my-location-map" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1807.8138964690615!2d89.3714995330817!3d25.01276044623044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sen!2sbd!4v1765339374078!5m2!1sen!2sbd" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+         
+         ></iframe>
+        </div>
+     </footer>
+</body>
+</html>

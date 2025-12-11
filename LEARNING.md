@@ -49,7 +49,33 @@
 - form data send to your mail
 - multimedia
 - html5 elements
+ - progress bar, meter 
 - deploy
 
 ## Advanced HTML
-
+ - more advanced form
+   - input type color, range 
+   - datalist() - autocomolete featues, predefined option
+     - your favorite programing language
+   - fieldset for grouping item ,legend
+ - web accessibility
+   - page asccessible ki na?
+   - axe DevTools
+   - use semantics tag
+   - use lang attributes
+   - use heading tags in order (h1->h2->h3)
+   - use laternative atrributes for img tag
+   - contrast ratio
+   - meta description,keyword 
+   - templtaes
+ - HTML5 API
+ - HTML Templates and web components
+ - sources for symbols, icons, emojis, colors
+   - symbl.cc icons, w3 schools sybmol, copychar =>(symbol)
+   - icons fontawesome, fontsgoogle.com/icons
+   - emoji emojipidea, 
+   - color colorhunt.co, colormind.io, color.adobe.com
+   - image unsplash.com
+ - learning resources
+  - mdn html site, w3schools, htmldog.com
+  
